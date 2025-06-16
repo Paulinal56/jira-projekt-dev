@@ -1,0 +1,10 @@
+site_name: Dokumentacja Jira
+
+nav: 
+ - Strona Główna: index.md
+ - Teoria: teoria.md
+ - Przykłady: przylady.md
+ - Autorzy: autorzy.md
+
+theme: 
+ name: material 
