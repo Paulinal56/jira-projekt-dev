@@ -12,5 +12,5 @@ Celem praktycznym projektu jest pokazanie, w jaki sposób Jira może wspomagać 
 ![Logo JIRA](assets/logo-jira.png)
 
 
-
+![Przykład ](assets/zdj3.png)
 
