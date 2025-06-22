@@ -1,3 +1,3 @@
 ## autorzy projektu: 
 Paulina Papież
-Wojceich Czupryna
+Wojciech Czupryna
