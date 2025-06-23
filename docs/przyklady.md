@@ -49,7 +49,13 @@ Ticket (lub issue) to zgłoszenie dotyczące błędu, zadania lub nowej funkcjon
 - Przypisuj ticket tylko wtedy, gdy wiesz, kto powinien się tym zająć.
 
 ---
+## Najczęstsze błędy
+- Brak szczegółowego opisu zgłoszenia.
+- Nieprzypisanie osoby odpowiedzialnej.
+- Nieustawienie typu ticketu.
+- Pominięcie załączników, które ułatwiają zrozumienei problemu
 
+---
 ## Przykład poprawnie wypełnionego ticketu
 
 **Tytuł:** Błąd przy dodawaniu nowego użytkownika – brak walidacji emaila
