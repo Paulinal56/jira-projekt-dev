@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://wczupryna.github.io/jira-projekt-dev/konfiguracja.html">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Konfiguracja - Jira Projekt</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="stylesheets/custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Jira Projekt</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Wstęp</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="autorzy.html" class="nav-link">Autorzy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="konfiguracja.html" class="nav-link active" aria-current="page">Konfiguracja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="przykłady.md" class="nav-link">Przykłady</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="tematy.html" class="nav-link">Tematy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="teoria.html" class="nav-link">Teoria</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="autorzy.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="tematy.html" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#konfiguracja-i-wdrozenie-jira" class="nav-link">Konfiguracja i wdrożenie Jira</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#1-rejestracja-konta" class="nav-link">1. Rejestracja konta</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#2-utworz-pierwszy-projekt" class="nav-link">2. Utwórz pierwszy projekt</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#3-dodaj-czonkow-zespou" class="nav-link">3. Dodaj członków zespołu</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-konfiguracja-workflow" class="nav-link">4. Konfiguracja workflow</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#5-zarzadzanie-backlogiem-i-sprintami-dla-scrum" class="nav-link">5. Zarządzanie backlogiem i sprintami (dla Scrum)</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#6-ustawienia-rol-i-uprawnien" class="nav-link">6. Ustawienia ról i uprawnień</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#7-integracja-z-github" class="nav-link">7. Integracja z GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#8-powiadomienia-i-automatyzacje" class="nav-link">8. Powiadomienia i automatyzacje</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#9-raportowanie-i-analiza" class="nav-link">9. Raportowanie i analiza</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#podsumowanie" class="nav-link">Podsumowanie</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="konfiguracja-i-wdrozenie-jira">Konfiguracja i wdrożenie Jira</h1>
+<p>Poniżej znajdziesz szczegółową instrukcję krok po kroku, jak skonfigurować i wdrożyć Jira w Twoim zespole, wraz z podstawową integracją z GitHub oraz wskazówkami dotyczącymi zarządzania projektami i workflow.</p>
+<hr />
+<h2 id="1-rejestracja-konta">1. Rejestracja konta</h2>
+<ol>
+<li>Przejdź na stronę: <a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira</a></li>
+<li>Załóż nowe konto lub zaloguj się, jeśli już posiadasz.</li>
+<li>Wybierz odpowiedni plan (darmowy lub płatny, w zależności od potrzeb zespołu).</li>
+</ol>
+<hr />
+<h2 id="2-utworz-pierwszy-projekt">2. Utwórz pierwszy projekt</h2>
+<ul>
+<li>Po zalogowaniu kliknij <strong>Create project</strong>.</li>
+<li>Wybierz typ projektu:</li>
+<li><strong>Software project</strong> – do zarządzania zespołami programistycznymi.</li>
+<li>Typ metodyki: <strong>Scrum</strong> (jeśli pracujesz sprintami) lub <strong>Kanban</strong> (praca ciągła).</li>
+<li>Nadaj nazwę projektu, np. „Zespół IT”.</li>
+<li>Opcjonalnie ustaw klucz projektu (skrót, np. IT).</li>
+</ul>
+<hr />
+<h2 id="3-dodaj-czonkow-zespou">3. Dodaj członków zespołu</h2>
+<ul>
+<li>Przejdź do <strong>Settings</strong> → <strong>People</strong>.</li>
+<li>Kliknij <strong>Invite users</strong>.</li>
+<li>Wpisz adresy email członków zespołu i wybierz ich role (np. Developer, Administrator, Viewer).</li>
+</ul>
+<hr />
+<h2 id="4-konfiguracja-workflow">4. Konfiguracja workflow</h2>
+<p>Workflow to schemat statusów, przez które przechodzi ticket (zgłoszenie).</p>
+<ul>
+<li>Przejdź do <strong>Settings</strong> → <strong>Issues</strong> → <strong>Workflows</strong>.</li>
+<li>Wybierz istniejący workflow lub utwórz nowy klikając <strong>Add workflow</strong>.</li>
+<li>Dodaj statusy, np.:</li>
+<li>To Do (Do zrobienia)</li>
+<li>In Progress (W trakcie)</li>
+<li>Review (Weryfikacja)</li>
+<li>Done (Zakończone)</li>
+<li>Ustaw przejścia między statusami (np. z To Do do In Progress, z In Progress do Review).</li>
+<li>Zapisz workflow i przypisz go do odpowiednich typów ticketów.</li>
+</ul>
+<hr />
+<h2 id="5-zarzadzanie-backlogiem-i-sprintami-dla-scrum">5. Zarządzanie backlogiem i sprintami (dla Scrum)</h2>
+<ul>
+<li>W panelu projektu przejdź do zakładki <strong>Backlog</strong>.</li>
+<li>Dodaj nowe zadania/tickety do backlogu.</li>
+<li>Twórz sprinty, przeciągając zadania do planowanego sprintu.</li>
+<li>Uruchom sprint, klikając <strong>Start sprint</strong> i zarządzaj postępem na tablicy Scrum.</li>
+</ul>
+<hr />
+<h2 id="6-ustawienia-rol-i-uprawnien">6. Ustawienia ról i uprawnień</h2>
+<ul>
+<li>W <strong>Project settings</strong> → <strong>Permissions</strong> możesz ustawić, kto co może robić (np. tworzyć tickety, zmieniać statusy).</li>
+<li>Możesz tworzyć niestandardowe role i przypisywać je użytkownikom.</li>
+</ul>
+<hr />
+<h2 id="7-integracja-z-github">7. Integracja z GitHub</h2>
+<p>Integracja pozwala automatycznie powiązać zmiany w repozytorium z ticketami Jira.</p>
+<ul>
+<li>Przejdź do <strong>Apps</strong> w Jira → wyszukaj i zainstaluj aplikację <strong>GitHub for Jira</strong>.</li>
+<li>Po instalacji połącz konto GitHub, autoryzując dostęp.</li>
+<li>Skonfiguruj repozytoria, które mają być monitorowane.</li>
+<li>Dodaj w commit message ID ticketu, np. <code>PROJECT-123</code>, aby automatycznie powiązać commit z ticketem.</li>
+<li>Możesz ustawić automatyczne przejścia ticketów po pushu (np. po mergu ticket zostaje zamknięty).</li>
+</ul>
+<hr />
+<h2 id="8-powiadomienia-i-automatyzacje">8. Powiadomienia i automatyzacje</h2>
+<ul>
+<li>W <strong>Project settings</strong> → <strong>Notifications</strong> możesz ustawić, kto i kiedy otrzymuje powiadomienia o zmianach.</li>
+<li>Użyj <strong>Automation rules</strong>, by automatycznie wykonywać akcje, np. przypisywać tickety, zmieniać statusy, wysyłać powiadomienia.</li>
+</ul>
+<hr />
+<h2 id="9-raportowanie-i-analiza">9. Raportowanie i analiza</h2>
+<ul>
+<li>Jira oferuje gotowe raporty (burndown, velocity, raporty o błędach).</li>
+<li>Możesz generować wykresy na podstawie danych z projektu, co pomaga w planowaniu i ocenie postępów.</li>
+</ul>
+<hr />
+<h1 id="podsumowanie">Podsumowanie</h1>
+<p>Prawidłowa konfiguracja Jira pozwala na pełne wykorzystanie potencjału systemu w zarządzaniu projektem. Dzięki powyższym krokom ustawisz środowisko dostosowane do potrzeb zespołu, usprawnisz komunikację oraz monitoring pracy.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
