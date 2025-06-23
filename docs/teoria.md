@@ -1,46 +1,53 @@
 # Teoria
 
-**Jira** to rozbudowany system do zarządzania projektami i zadaniami, stworzony przez firmę Atlassian, który jest szeroko wykorzystywany w zespołach programistycznych oraz innych działach IT na całym świecie. Jego głównym celem jest ułatwienie organizacji pracy, monitorowania postępów oraz efektywnego zarządzania zgłoszeniami, które mogą dotyczyć nowych funkcjonalności, błędów, zadań czy wymagań biznesowych.
+**Jira** to rozbudowany system do zarządzania projektami i zadaniami, stworzony przez firmę Atlassian. Jira została wprowadzona na rynek w 2002 roku i od tego czasu stała się jednym z najczęściej wybieranych systemów do zarządzania projektami IT. Jest szeroko wykorzystywany w zespołach programistycznych oraz innych działach IT na całym świecie. Jego głównym celem jest ułatwienie organizacji pracy, monitorowania postępów oraz efektywne zarządzanie zgłoszeniami, które mogą dotyczyć nowych funkcjonalności, błędów, zadań czy wymagań biznesowych.
 
-Jira umożliwia tworzenie, przypisywanie i śledzenie tzw. ticketów, czyli indywidualnych zgłoszeń opisujących konkretne zadania lub problemy. System wspiera pełen cykl życia ticketów — od ich powstania, przez realizację, aż po zamknięcie.
+Jira umożliwia tworzenie, przypisywanie i śledzenie tzw. *ticketów*, czyli indywidualnych zgłoszeń opisujących konkretne zadania lub problemy. System wspiera pełen cykl życia ticketów — od ich powstania, przez realizację, aż po zamknięcie.
 
-### Kluczowe funkcjonalności Jiry to między innymi:
+*Przykład ticketa:*
+- **Tytuł:** Naprawa błędu wylogowania  
+- **Opis:** Użytkownik jest automatycznie wylogowywany po 5 minutach bezczynności, nawet jeśli zaznaczono „zapamiętaj mnie”.
+- **Priorytet:** Wysoki  
+- **Osoba przypisana:** Jan Kowalski
 
-- **Definiowanie i zarządzanie workflow** – użytkownicy mogą tworzyć i dostosowywać procesy pracy (workflow), które określają kolejne etapy realizacji ticketów, co pozwala na standaryzację i automatyzację pracy zespołu.  
+## Kluczowe funkcjonalności Jiry
+
+- **Definiowanie i zarządzanie workflow** – użytkownicy mogą tworzyć i dostosowywać procesy pracy (workflow), które określają kolejne etapy realizacji ticketów. Pozwala to na standaryzację i automatyzację pracy zespołu.  
 - **Przypisywanie zadań** – każdy ticket może zostać przypisany do konkretnego członka zespołu, co zwiększa odpowiedzialność i transparentność działań.  
-- **Monitorowanie postępów** – Jira oferuje rozbudowane narzędzia do śledzenia statusów ticketów, dzięki czemu menedżerowie i członkowie zespołu mają pełny obraz aktualnego stanu projektu.  
-- **Raportowanie i analiza** – generowanie raportów, wykresów oraz statystyk pozwala na ocenę wydajności zespołu, identyfikację wąskich gardeł i planowanie dalszych działań.  
-- **Integracje** – Jira współpracuje z wieloma innymi narzędziami, takimi jak Confluence (system dokumentacji), Bitbucket (repozytoria kodu), czy narzędziami CI/CD, co umożliwia pełną automatyzację procesów developerskich.
+- **Monitorowanie postępów** – Jira oferuje narzędzia do śledzenia statusów ticketów, dzięki czemu członkowie zespołu i menedżerowie mają pełny obraz stanu projektu.  
+- **Raportowanie i analiza** – możliwe jest generowanie raportów, wykresów i statystyk, które pomagają ocenić efektywność zespołu oraz zidentyfikować problemy.  
+- **Integracje** – Jira współpracuje z wieloma narzędziami, takimi jak Confluence (dokumentacja), Bitbucket (repozytoria kodu) czy narzędzia CI/CD, co wspiera automatyzację procesów developerskich.
 
-### Zastosowanie Jiry
+## Zastosowanie Jiry
 
-Jira jest niezwykle elastyczna i może być wykorzystywana nie tylko w zespołach programistycznych, ale także w działach marketingu, HR, obsługi klienta czy zarządzania produktami. Dzięki możliwości dostosowania workflow do specyfiki różnych zespołów, system jest idealny zarówno dla małych startupów, jak i dużych korporacji.
+Jira jest niezwykle elastyczna i może być wykorzystywana nie tylko w zespołach programistycznych, ale również w działach marketingu, HR, obsługi klienta czy zarządzania produktami. Dzięki możliwości dostosowania workflow do specyfiki pracy zespołu, narzędzie to sprawdza się zarówno w małych startupach, jak i w dużych korporacjach.
 
-### Korzyści z używania Jiry
+## Korzyści z używania Jiry
 
-- Zwiększenie efektywności pracy poprzez jasne przypisanie zadań i kontrolę ich realizacji.  
+- Jasne przypisanie zadań i kontrola ich realizacji zwiększają efektywność pracy.  
 - Lepsza komunikacja i współpraca zespołowa dzięki centralizacji informacji o projekcie.  
-- Transparentność działań oraz łatwy dostęp do historii zgłoszeń.  
-- Możliwość szybkiego reagowania na zmiany i problemy dzięki bieżącemu monitorowaniu statusów.  
-- Wsparcie dla metodyk Agile i Scrum, co czyni Jirę popularnym narzędziem w zespołach wdrażających te podejścia.
+- Transparentność działań i łatwy dostęp do historii zgłoszeń.  
+- Szybkie reagowanie na zmiany i problemy dzięki bieżącemu śledzeniu statusów.  
+- Wsparcie dla metodyk Agile i Scrum czyni Jirę idealnym narzędziem dla nowoczesnych zespołów projektowych.
 
 ---
 
-# Przykład zastosowania Jiry w praktyce
+## Przykład zastosowania Jiry w praktyce
 
-Firma XYZ, rozwijająca oprogramowanie mobilne, zdecydowała się na wdrożenie Jiry, aby usprawnić zarządzanie projektami i komunikację między zespołami. Przed wdrożeniem, zadania i błędy były zapisywane w różnorodnych miejscach, co powodowało chaos i opóźnienia.
+Firma XYZ, zajmująca się rozwojem aplikacji mobilnych, wdrożyła Jirę w celu usprawnienia zarządzania projektami i komunikacji między zespołami. Przed implementacją, zadania i błędy były zapisywane w różnych narzędziach, co utrudniało pracę i powodowało opóźnienia.
 
-Po implementacji Jiry:
+Po wdrożeniu Jiry:
 
-- Każdy zespół miał własne dedykowane tablice Kanban i Scrum, które pozwalały na przejrzyste planowanie sprintów i priorytetyzację zadań.  
-- Automatyczne powiadomienia o zmianach statusu ticketów usprawniły komunikację i przyspieszyły reakcję na problemy.  
-- Menedżerowie korzystali z raportów burndown i velocity, aby lepiej planować zasoby i oceniać postępy projektów.  
-- Integracja z repozytorium kodu i narzędziami CI/CD umożliwiła szybkie śledzenie postępu prac programistycznych i automatyczne zamykanie ticketów po wdrożeniu poprawek.
+- Każdy zespół korzystał z dedykowanych tablic Kanban i Scrum, które umożliwiały planowanie sprintów i priorytetyzację zadań.  
+- Automatyczne powiadomienia o zmianach w ticketach poprawiły przepływ informacji i przyspieszyły reakcję na problemy.  
+- Raporty typu burndown i velocity pozwalały menedżerom skuteczniej planować pracę i analizować postępy.  
+- Integracja z repozytorium kodu i narzędziami CI/CD umożliwiła bieżące śledzenie pracy programistów oraz automatyczne zamykanie zgłoszeń po wdrożeniu zmian.
 
-Efektem było znaczne zwiększenie wydajności zespołu, skrócenie czasu reakcji na błędy oraz poprawa jakości finalnego produktu.
+Efektem było zwiększenie wydajności zespołu, skrócenie czasu reakcji na błędy oraz poprawa jakości końcowego produktu.
 
 ---
 
-# Podsumowanie
+## Podsumowanie
 
-Jira to nie tylko narzędzie do zarządzania zadaniami, ale kompleksowy system wspierający cały proces wytwarzania oprogramowania oraz zarządzania projektami w różnych branżach. Dzięki swojej elastyczności i szerokiemu spektrum funkcjonalności, Jira pozwala na efektywną organizację pracy, lepszą współpracę zespołową oraz monitorowanie realizacji celów biznesowych.
+Jira to nie tylko system do zarządzania zadaniami, ale kompleksowe narzędzie wspierające cały proces zarządzania projektami. Dzięki elastyczności, możliwości integracji i wsparciu dla metodyk Agile, Jira sprawdza się w wielu branżach i zespołach, przyczyniając się do lepszej organizacji pracy oraz efektywniejszej realizacji celów biznesowych.
+
