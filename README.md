@@ -2,6 +2,7 @@ Witaj w dokumentacji projektu Jira
 Witamy w naszym przewodniku po systemie Jira – jednym z najczęściej wykorzystywanych narzędzi do zarządzania projektami, zadaniami i zgłoszeniami w zespołach IT.
 
 Co znajdziesz w dokumentacji?
+
 🔹 Teoria działania Jira
 Zrozumiesz podstawy działania systemu, jego zastosowania i najważniejsze funkcjonalności.
 
