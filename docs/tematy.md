@@ -4,10 +4,10 @@ Celem niniejszego projektu jest szczegółowe zaprezentowanie systemu ticketoweg
 
 W projekcie zostaną omówione:
 - kluczowe moduły systemu Jira (m.in. zarządzanie backlogiem, workflow, raportowanie),
-- jego integracja z innymi narzędziami (np. Confluence, Git, CI/CD),
-- oraz korzyści i wyzwania związane z wdrożeniem tego systemu w rzeczywistym środowisku firmy IT.
+- jego integracja z innymi narzędziami, m.in. **Confluence**, **Git** czy CI/CD,
+- korzyści i wyzwania związane z wdrożeniem Jiry w środowisku firmowym.
 
-Celem praktycznym projektu jest pokazanie, w jaki sposób Jira może wspomagać zwinne metodyki zarządzania projektami (takie jak Scrum czy Kanban) oraz jak można skonfigurować środowisko pracy dostosowane do potrzeb konkretnego zespołu.
+Część praktyczna projektu pokaże, jak Jira wspiera zwinne metodyki zarządzania projektami, takie jak **Scrum** oraz **Kanban**, przyczynając się do poprawy efektywności pracy zespołów oraz lepszego monitorowania postępów.
 
 ![Logo JIRA](assets/logo-jira.png)
 
