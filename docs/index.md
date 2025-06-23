@@ -1,10 +1,10 @@
-# 👋 Witaj w dokumentacji projektu **Jira**
+# Witaj w dokumentacji projektu **Jira**
 
 Witamy w naszym przewodniku po systemie **Jira** – jednym z najczęściej wykorzystywanych narzędzi do zarządzania projektami, zadaniami i zgłoszeniami w zespołach IT.
 
 ---
 
-## 📄 Co znajdziesz w dokumentacji?
+## Co znajdziesz w dokumentacji?
 
 🔹 **Teoria działania Jira**  
 Zrozumiesz podstawy działania systemu, jego zastosowania i najważniejsze funkcjonalności.
@@ -20,9 +20,9 @@ Poznasz osoby odpowiedzialne za przygotowanie projektu.
 
 ---
 
-📌 **Cel dokumentacji:**  
+**Cel dokumentacji:**  
 Ułatwić Ci zrozumienie i wdrożenie Jira w codziennej pracy zespołowej – zarówno w projektach programistycznych, jak i innych branżach.
 
 ---
 
-🔍 Przejdź dalej, aby rozpocząć ➡️
+  Pzejdź dalej, aby rozpocząć 
