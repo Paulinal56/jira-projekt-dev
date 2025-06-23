@@ -1,4 +1,20 @@
-site_name: My Docs
 
+site_name: Jira Projekt
+site_url: https://wczupryna.github.io/jira-projekt-dev/
+use_directory_urls: false
+
+nav:
+  - Wstęp: index.md
+  - Autorzy: autorzy.md
+  - Konfiguracja: konfiguracja.md
+  - Przykłady: przykłady.md
+  - Tematy: tematy.md
+  - Teoria: teoria.md
+ 
+theme:
+  name: mkdocs 
+
+extra:
+  base_url: /jira-projekt-dev/
 extra_css:
   - stylesheets/custom.css
